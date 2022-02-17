@@ -12,7 +12,7 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
     const foodValue = getInputValue('food-id');
     const rentValue = getInputValue('rent-id');
     const clothesValue = getInputValue('clothes-id');
-
+        // get error massage for invaild input
     if (incomeValue < 0 || isNaN(incomeValue)) {
         alert("Invalid Income field amount!");
     }
@@ -34,7 +34,7 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
             alert('Please reduce your expenses.');
         }
         else {
-            // balance 
+            // calculate  balance 
             const balance = document.getElementById('balance-id');
             const newBalance = incomeValue - totalExpense;
 
@@ -47,7 +47,7 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
 document.getElementById('save-btn').addEventListener('click', function () {
     // Getting income Value
     const incomeValue = getInputValue('income-id');
-    // Save 
+    // Save value
     const saveValue = getInputValue('save-id');
 
     if (saveValue < 0 || isNaN(saveValue)) {
