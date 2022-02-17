@@ -16,9 +16,43 @@
     <div class="col-lg-6">
         <img class="img-fluid" src="images/image.png" alt="">
     </div>
-    
-    <div class="col-lg-6">
 
+    <div class="col-lg-6 p-3 bg-modify-color text-center rounded">
+        <h3 class="p-2 text-color ">Income</h3>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Income</span>
+            <input id="income-id" type="number" class="form-control" aria-label="">
+
+        </div>
+        <h3 class="p-2 text-color">Expenses</h3>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Food</span>
+            <input id="food-id" type="number" class="form-control" aria-label="">
+
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Rent</span>
+            <input id="rent-id" type="number" class="form-control" aria-label="">
+
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Clothes</span>
+            <input id="clothes-id" type="number" class="form-control" aria-label="">
+
+        </div>
+
+        <div id="calculate-btn" class="btn btn-primary px-5 py-2 mb-3">Calculate</div>
+
+        <h5>Total Expenses: <span id="expense-id">00</span></h5>
+        <h5>Balance: <span id="balance-id">00</span></h5>
+        <div class="input-group mb-3">
+            <span class="input-group-text   d-inline">Save</span>
+            <input id="save-id" class="w-25 border-0" type="number" aria-label="">
+            <span class="mx-3">%</span>
+            <div id="save-btn" class="btn btn-primary px-5 rounded">Save</div>
+        </div>
+        <h5>Saving Amount: <span id="saving-amount">00</span></h5>
+        <h5>Remaining Balance: <span id="remaining">00</span></h5>
     </div>
 
 
