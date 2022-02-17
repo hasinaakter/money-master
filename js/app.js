@@ -45,14 +45,15 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
 })
 
 document.getElementById('save-btn').addEventListener('click', function () {
-    // Getting income Value
+    // get income Value
     const incomeValue = getInputValue('income-id');
-    // Save value
+    //get  Save value
     const saveValue = getInputValue('save-id');
 
     if (saveValue < 0 || isNaN(saveValue)) {
         alert("Enter a valid Save value !");
     }
+    // savings calculations
     else {
         const saveFraction = saveValue / 100;
         const newSavingAmount = incomeValue * saveFraction;
