@@ -12,15 +12,18 @@
 </head>
 <body>
     <header>
-        <h1 class="text-center text-light p-5 bg-color">Savings Calculate Master</h1>
+        <h1 class="text-center text-light p-3  bg-modify-color">Savings Calculate Master</h1>
     </header>
+    <!-- main start from here -->
 <main>
-    <section class="row mx-auto p-3 m-5">
-        <div class="col-lg-6">
+    <!-- added section -->
+    <section class="row mx-auto p-3 m-2">
+        <div class="col-lg-6 col-sm-12 col-md-6 gx-4 gy-2">
             <img class="img-fluid" src="images/image.png" alt="">
         </div>
     
-        <div class="col-lg-6 p-3 bg-modify-color text-center rounded">
+        <div class="col-lg-6 col-sm-12 col-md-6 p-3 gx-4 gy-2 bg-modify-color">
+           <div class="text-center mx-auto w-75 rounded">
             <h3 class="p-2 text-color ">Income</h3>
             <div class="input-group mb-3">
                 <span class="input-group-text">Income</span>
@@ -48,14 +51,15 @@
     
             <h5>Total Expenses: <span id="expense-id">00</span></h5>
             <h5>Balance: <span id="balance-id">00</span></h5>
-            <div class="input-group mb-3">
-                <span class="input-group-text   d-inline">Save</span>
-                <input id="save-id" class="w-25 border-0" type="number" aria-label="">
+            <div class="input-group mb-3 ">
+                <span class="input-group-text d-inline">Save</span>
+                <input id="save-id" class="w-25 border" type="number" aria-label="">
                 <span class="mx-3">%</span>
-                <div id="save-btn" class="btn btn-primary px-5 rounded">Save</div>
+                <span id="save-btn" class="btn btn-primary px-3 rounded">Save</span>
             </div>
             <h5>Saving Amount: <span id="saving-amount">00</span></h5>
             <h5>Remaining Balance: <span id="remaining">00</span></h5>
+           </div>
         </div>
         
     </section>

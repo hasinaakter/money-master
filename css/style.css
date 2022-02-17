@@ -3,13 +3,14 @@
 body{
     font-family: 'Quicksand', sans-serif;
 }
-/* .bg-color{
+ /* .bg-color{
     background-color: rgb(179, 178, 180);
 
-} */
+}  */
 /* modify background color */
 .bg-modify-color{
-    background-color: #c9c7c7;
+    /* background-color: rgb(179, 178, 180); */
+     background-color: #c9c7c7; 
 }
 
 .text-color{
