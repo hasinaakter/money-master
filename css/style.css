@@ -1,4 +1,17 @@
-.bg-color{
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+/* .bg-color{
     background-color: rgb(179, 178, 180);
 
+} */
+/* modify background color */
+.bg-modify-color{
+    background-color: #c9c7c7;
+}
+
+.text-color{
+    color: rgb(92, 59, 145);
 }
